@@ -1,0 +1,20 @@
+body{
+    background-color:black;
+}
+h1{
+    text-transform :uppercase;
+    font-size:1rem;
+}
+.poster{
+    width : 50%;
+    margin-left:25%;
+    margin-right :100px;
+    color : white;
+    text-align :center;
+
+
+}
+.motive-imag{
+    border : 8px solid palevioletred;
+    width :100%;
+}

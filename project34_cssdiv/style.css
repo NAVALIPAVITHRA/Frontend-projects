@@ -1,0 +1,11 @@
+#head1{
+    text-transform: capitalize;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+#outer{
+  font-size: 25px;
+}
+#inner{
+    font-size: 10px;
+}

@@ -1,0 +1,135 @@
+*{  margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+    font-family: sans-serif;
+}
+.image{
+    position:relative;
+    height:150px;
+    width:150px;
+    border-radius: 50%;
+  background-color: #4070f4;
+  padding:3px;
+  margin-bottom: 10px;
+}
+.image .img{
+    height:100%;
+    width:100%;
+    object-fit: cover;
+    border-radius: 50%;
+    border:3px solid #fff;
+}
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+}
+.card{
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    max-width: 370px;
+    width: 100%;
+    background-color: #fff;
+    padding:25px;
+    box-shadow:5px 5px 10px rgba(0,0,0,0.2);
+    position: relative;
+    
+}
+.card::before{
+    content:"";
+    position: absolute;
+    top:0;
+    left:0;
+    height: 36%;
+    width: 100%;
+    border-radius: 24px 24px 0 0 ;
+    background-color: #4070f4;
+}
+.card .text{
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    color: #333;
+
+}
+.text .name{
+    font-size: 22px;
+    font-weight: 500;
+}
+.text .job{
+    font-size: 15px;
+    font-weight: 400;
+}
+.card .media{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top:15px;
+}
+.media .link{
+    text-decoration: none;
+    background-color: #4070f4;
+    margin:0 8px ;
+    height:34px;
+    width:34px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 18px;
+}
+.card .button{
+    display:flex;
+    align-items: center;
+    margin-top:25px;
+
+}
+.button .bt{
+    background-color: #4070f4;
+    padding: 8px 14px;
+  margin:0 10px;
+  border-radius: 24px;
+  border:none;
+  color:#fff;
+  font-size:14px;
+  font-weight: 400;
+  cursor:pointer;
+  transition: all 0.3s ease;
+}
+.button .bt:hover{
+    background-color: #0e4bf1;
+
+}
+.media .link:hover{
+    background-color: #0e4bf1;
+}
+.card .analytics{
+    display:flex;
+    align-items: center;
+    margin-top:25px ;
+    
+    
+}
+.analytics .data{
+    display: flex;
+    align-items: center;
+    color:#333 ;
+    padding: 0 20px;
+    border-right: 2px solid #e7e7e7;
+}
+.data:last-child{
+    border-right:none ;
+}
+.data i{
+    font-size: 18px;
+    margin-right: 6px;;
+    transition: all 0 ease;
+}
+.data i:hover{
+
+color: transparent;
+}
